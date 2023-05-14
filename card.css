@@ -1,0 +1,118 @@
+.table {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card1 {
+    display: flex;
+    
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.75);
+    transition: all 1s ease;
+}
+h3 {
+    border-bottom: 5px solid red;
+    padding-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+ .card1 span:nth-child(2) {
+    font-size: 50px;
+    font-weight: bolder;
+}
+ .card1 span:nth-child(3) {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 30px;
+}
+ .card1 span:nth-child(4) {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+ .card1 span:nth-child(5) {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+ .card1 span:nth-child(6) {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+ .card1 span:nth-child(7) {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+.button {
+display: flex;
+height: 50px;
+width: 120px;
+border-radius: 5px;
+padding: 0 auto;
+margin: 0 auto;
+background-color: brown;
+align-items: center;
+transition: all 0.5s ease;
+
+}
+
+.button span{
+    color: white;
+    padding: 0 auto;
+    margin: 0 auto;  
+}
+
+
+.card2 h3{
+    border-bottom: 5px solid orange;
+}
+.card2 .button{
+    background-color: orange;
+}
+.card3 h3{
+    border-bottom: 5px solid navy;
+}
+.card3 .button{
+    background-color: navy;
+}
+.card4 h3{
+    border-bottom: 5px solid green;
+}
+.card4 .button{
+    background-color: green;
+}
+
+
+.card1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.button:hover{
+    background-color: red;
+}
+.card2 .button:hover{
+    background-color: yellow;
+}
+.card3 .button:hover{
+    background-color: blue;
+}
+.card4 .button:hover{
+    background-color: lightgreen;
+}
+ 
+

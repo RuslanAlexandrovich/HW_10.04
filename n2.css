@@ -1,0 +1,71 @@
+table {
+    width: 200px;
+    border-collapse: collapse;
+    line-height: 50px;
+    overflow-x: scroll;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+   } 
+   
+   
+  /* table td:nth-child(1), 
+  table th:nth-child(1) { min-width: 150px; text-align: center }
+   
+  table td:nth-child(2),
+  table th:nth-child(2) { min-width: 150px; text-align: center}
+   
+  table td:nth-child(3),
+  table th:nth-child(3) { min-width: 150px; text-align: center}
+  
+  table td:nth-child(4),
+  table th:nth-child(4) { min-width: 150px; text-align: center}
+
+  table td:nth-child(5),
+  table th:nth-child(5) { min-width: 150px; text-align: center}
+
+  table td:nth-child(6),
+  table th:nth-child(6) { min-width: 150px; text-align: center} */
+
+  table td:nth-child(odd),
+  table th:nth-child(odd) { min-width: 150px; text-align: center}
+
+  table td:nth-child(even),
+  table th:nth-child(even) { min-width: 150px; text-align: center}
+  
+  table  thead tr{
+      background-color:rgb(59, 168, 182); 
+    }
+  
+
+     
+  table tbody {
+      /* display: block; */
+      /* overflow: auto; */
+      width: 100%;
+      height: 300px;
+      /* position: relative;  */
+  }
+  
+  table tbody tr:nth-child(even) {
+        background-color: lightgray;
+        
+  }
+
+  table tr:first-child
+  {
+    position: sticky;
+    top: 0;
+  }
+
+  table tbody th {
+    background-color: rgb(59, 168, 182);
+  }
+  table th:first-child{
+    position: sticky;
+    left: 0;
+  }
+  /* table tbody tr th{
+    position: sticky;
+    
+  } */
+  

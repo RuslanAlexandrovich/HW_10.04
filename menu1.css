@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  display: flex;
+  float: left;
+  left: 100px;
+  top: 0;
+} */
+
+/* h3 {
+  padding: 20px 0;
+} */
+
+.main {
+    width: 100px;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    display: block;
+    position: fixed;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+ .main li {
+    padding: 20px 0;
+    position: relative;
+    /* float: left; */
+ }
+
+ .main li ul{
+  position:absolute;
+  display: none;
+  top:auto;
+  left: 100px;
+  width: 100px;
+  list-style-type: none;
+
+ }
+
+ .main li ul li{
+ 
+  background-color: gray;
+  
+  /* margin: -45px 0; */
+ }
+
+ .main li:hover>ul{
+  display: initial;
+ }
+
+ div {
+  /* position:relative; */
+  width: auto;
+  padding-left: 100px;
+  top: 0;
+
+
+ }
+.main ul li img::after{
+  content: "";
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+ }
+
+ ul ul li:nth-child(1):hover img::after{
+  content: "EDIT";
+ }
+
+ /* .text {
+  
+    font-weight: 800;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-color: gray;
+    top: 0;
+    left: 100px;
+    list-style-type: none;
+    padding: 65px 0;
+    
+   
+ }
+
+ .text li {
+  padding: 28px 0;
+ }
+
+ .text li a{
+  text-decoration: none;
+ } */
